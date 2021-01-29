@@ -1,0 +1,16 @@
+.addPhoto{
+    width: 30%;
+    margin: 2rem auto ;
+
+    .btn-randomPhoto{
+        display: block;
+        width: 255px;
+        height: 255px;
+
+        border-radius: .5rem;
+        overflow: hidden;
+        margin: 1.5rem 0;
+        
+        background-color: gray;
+    }
+}

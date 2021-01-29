@@ -1,0 +1,24 @@
+.header{
+    padding: 1rem 0;
+    font-size: 1.25rem;
+    
+    &__tittle {
+        font-family: 'Poppins', sans-serif; 
+        color: #000;
+        
+        &:hover{
+            text-decoration: none;
+            color: rgb(103, 166, 190);
+        }
+    }
+    &__link {
+        transition: all 0.25s ease-in-out 0s;
+        color: rgb(103, 166, 190);
+        
+        &--active,
+        &:hover {
+            text-decoration: none;
+            color: #000
+        }
+    }
+}

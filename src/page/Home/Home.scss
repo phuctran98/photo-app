@@ -1,0 +1,10 @@
+.photoList{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.link-addPhoto{
+    margin: 1rem 0;
+}
+.link-addPhoto:hover > a{
+    text-decoration: none;
+}
